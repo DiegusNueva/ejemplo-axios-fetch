@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+    /* Ruta de tu imagen */
+    background-image: url('../assets/fondoBody.jpg');
+    /* Cubre toda el área del body */
+    background-size: cover;
+    /* Evita que la imagen se repita */
+    background-repeat: no-repeat;
+    /* Hace que la imagen de fondo sea fija */
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+    line-height: 1.5;
+}
+
+.styled-box {
+    width: 50vb;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+    opacity: 0.9;
+}
+
+.styled-box:hover {
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
